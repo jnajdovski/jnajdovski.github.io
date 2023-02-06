@@ -8,6 +8,16 @@ const config = {
         mode: Scale.FIT,
         autoCenter: Scale.CENTER_BOTH,
     },
+    physics: {
+        default: 'matter',
+        matter: {
+          gravity: {
+            y: 1
+          },
+          debug: true,
+          debugBodyColor: 0x18c747
+        }
+    },
     dom: {
         createContainer: true
     },
